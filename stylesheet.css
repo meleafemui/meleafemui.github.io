@@ -1,23 +1,35 @@
-.funky-text { 
-    font-size: 16px;
-    color: White;
-    font-style: italic;
+  html {
+   background-color: black;
+   background-image: url('http://www.neyralaw.com/wp-content/uploads/2012/07/tokyo-blue-background-4547.jpg');
+   background-size: cover;
+   background-attachment: fixed;
 }
-p {
-    line-height: 150%;
-    color: #2CF25D;
+header {
+   background-color: #222222;
+   color: #FFFFFF;
+   padding: 20px;
+   font-family: 'Lobster', cursive;
+   text-align: center
 }
-h1{
-    color: #FFFFFF;
-    font-size: 25px;
-    font-family: "Comic Sans MS";
+.introduction {
+   background-color: #222222;
+   padding: 30px;
+   width: 700px;
+   margin: 0 auto;
+   margin-top: 30px;
+
+   color: #FFFFFF;
+   font-size: 14px;
+   line-height: 130%;
+   border: 10px solid #1770FF;
+   border-radius: 10px;
 }
-h2{
-    color: #FFFFFF;
-    font-size: 24px;
-    font-family: "Comic Sans MS";
-}
-body {
-    background-color: black;
-    colour: white;
+.gallery img {
+   height: 100px;
+   border-width: 5px;
+   border-color: #FFFFFF;
+   border-style: solid;
+   box-shadow: 3px 3px 5px 6px #000000;
+   margin: 5px;
+   font-size: 20;
 }
