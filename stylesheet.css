@@ -12,19 +12,21 @@ header {
    text-align: center
 }
 .introduction {
-   background-color: ;
+   background-color: black;
    padding: 10px;
    width: 700px;
    margin: 0 auto;
    margin-top: 30px;
 
-   color: #black;
+   color: white;
    font-size: 14px;
    line-height: 130%;
    border: 10px solid #1770FF;
    border-radius: 10px;
 }
-.gallery img {
+
+.gallery img
+{
    height: 100px;
    border-width: 10px;
    border-color: #FFFFFF;
@@ -33,6 +35,41 @@ header {
    margin: 5px;
    font-size: 20;
 }
+.Sports img {
+   height: 100px;
+   border-width: 10px;
+   border-color: #FFFFFF;
+   border-style: solid;
+   box-shadow: 3px 3px 5px 6px #000000;
+   margin: 5px;
+   font-size: 20;
+}
+
+
+.Food img
+{
+   height: 100px;
+   border-width: 10px;
+   border-color: #FFFFFF;
+   border-style: solid;
+   box-shadow: 3px 3px 5px 6px #000000;
+   margin: 5px;
+   font-size: 20;
+}
+
+.Music img
+{
+   height: 100px;
+   border-width: 10px;
+   border-color: #FFFFFF;
+   border-style: solid;
+   box-shadow: 3px 3px 5px 6px #000000;
+   margin: 5px;
+   font-size: 20;
+}
+
+
+
 .main-navigation {
     background: ;
 }
@@ -47,4 +84,9 @@ header {
 .main-navigation a:hover {
     background-color: ;
     color: #FFFFFF;
+}
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
